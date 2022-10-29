@@ -1,0 +1,304 @@
+.fixed-content {
+    width: 960px;
+}
+
+body {
+    color: #777;
+}
+
+hr {
+    margin-top: 5%;
+    margin-bottom: 3%; 
+}
+
+/* .nav-wrapper {
+    border-bottom: 1px solid #ccc;
+} */
+
+#logo {
+    color: #d70606;
+    font-size: 1.8rem;
+    font-weight:500;
+}
+
+#call-now {
+    color: #d70606;
+    font-size: 1.1rem;
+    font-weight:500;
+}
+
+#slogan {
+    display: inline-block;
+    color: rgb(213, 209, 209);
+}
+
+#main-content {
+    background: #fbfbfb;
+    padding: 0.5px 0px 20px 0px;
+}
+
+.body-advertisement {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 0px 35px;
+}
+
+.body-advertisement-feature{
+    padding: 0px 12px;
+}
+
+.tieu_de_col {
+    color: #000;
+}
+
+.Text {
+    margin-right: 30px;
+}
+
+.image {
+    margin-bottom: 30px;
+}
+
+.btns {
+    display: flex;
+}
+
+.img-banner{
+    margin-bottom: 40px;
+}
+/* .img-banner{
+    position: relative;
+     width: 400px;
+     height: 300px;
+     background-color: #fff;
+     box-shadow: 0 1px 5px rgba(0,0,0,0.25), 0 0 50px rgba(0,0,0,0.1) inset;
+     border-radius: 1%     1%     1%     1% /     1%     1%     1%     1%;
+}
+.img-banner::before{
+    position: absolute;
+    width: 100%;
+    height: 12%;
+    left: 12%;
+    border-radius: 100%;
+    z-index: -1;
+    bottom: 0%;
+    content: "";
+    box-shadow: 0 50px 40px red;
+} */
+
+
+
+.shadow-screenshot{
+    width: 200%;
+    height: 1%;
+    border-radius: 100%;
+    z-index: -1;
+    bottom: 0%;
+    content: "";
+    box-shadow: 0 20px 30px red;
+}
+
+.Purchase_now {
+    border-radius: 80px/80px;
+    background-image: linear-gradient(rgba(253,169,44,255), rgba(255,84,0,255));
+    border: 4px solid rgb(239, 236, 236);
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgba(202,69,0,255);
+    padding: 12px 24px;
+}
+
+.Or{
+    display: flex;
+    padding: 12px 24px;
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+}
+
+.Or_child{
+    margin: auto;
+}
+
+.Take_a_tour {
+    border-radius: 80px/80px;
+    background-image: linear-gradient(white, rgba(53, 51, 51, 0.089));
+    border: 4px solid rgb(239, 236, 236);
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgba(131,131,131,255);
+    padding: 12px 24px;
+}
+
+.feature {
+    display: flex;
+}
+
+.text-right {
+    margin-left: 10px;
+}
+
+.title_feature {
+    color: #000;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.check-out {
+    color: #000;
+    font-weight: bold;
+    font-size: 1.1rem;    
+    margin-bottom: 2%;
+}
+
+.list-icon{
+    margin-left: 30px;
+}
+
+.text-icn {
+    color: rgba(223,147,102,255);
+    margin-left: 10px;
+}
+
+.line-icn {
+    margin-top: 20px;
+    width: 300px;
+}
+
+.screenshots {
+    color: #000;
+    font-weight: bold;
+    font-size: 1.1rem;    
+}
+
+.list-screenshots {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+.shadow-banner{
+    width: 100%;
+    height: 1%;
+    border-radius: 100%;
+    z-index: -1;
+    bottom: 0%;
+    content: "";
+    box-shadow: 0 35px 15px rgb(39, 38, 38);
+}
+
+.feedback{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 0px 35px;
+}
+
+.customer-say {
+    color: #000;
+    font-weight: bold;
+    font-size: 1.1rem;   
+}
+
+ .speech-bubble{
+    position: relative;
+    border: 1px solid rgb(0, 255, 255);
+    width: 100%;
+    padding: 2% 2%;
+    border-radius: 3px;
+    font-size: 1.1rem;
+    margin-top: 20px;
+}
+.speech-bubble::after {
+    content: '';
+	position: absolute;
+	bottom: 0;
+	left: 5%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: white;
+	border-bottom: 0;
+	border-right: 0;
+	margin-left: -10.85px;
+	margin-bottom: -17.5px;
+} 
+
+.speech-bubble::before {
+    content: '';
+	position: absolute;
+	bottom: 0;
+	left: 5%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #00aabb;
+	border-bottom: 0;
+	border-right: 0;
+	margin-left: -10px;
+	margin-bottom: -20px;
+} 
+
+.Tyson{
+    position: absolute;
+    left: 7%;
+    bottom: -55%;
+    color: rgba(147,147,147,255);
+}
+.Tyson::after{
+    content: "Microsoft";
+    color: rgba(210,210,210,255);
+    font-style:italic
+}
+
+.feedback .btns{
+    margin-top: 50px;
+    margin-left: 30%;
+}
+
+.contact {
+    background-color: rgba(51,51,51,255);
+    display: flex;
+    margin-top: 30px;
+    
+}
+
+.img-payment {
+    padding-bottom: 30px;
+}
+
+.about-us{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.title-aboutus{
+    color: rgba(201,201,201,255);
+    font-weight: bold;
+    font-size: 1.3rem; 
+}
+
+.logo-grey{
+    margin-left: 20px;
+}
+
+.text-logo-fn {
+    color: grey;
+    font-size: 1.8rem;
+    font-weight:500;
+    display: inline-block;
+}
+
+.license {
+    display: flex;
+    background-color: rgba(34,34,34,255);
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.shegy {
+    color: rgba(214,135,89,255);
+    font-style:italic
+}
+
